@@ -1,0 +1,7 @@
+.studio-switch{padding:15px 17px;border-bottom:1px solid var(--line)}
+.studio-switch a{display:flex;align-items:center;gap:8px;padding:11px 12px;border-radius:9px;text-decoration:none;font-size:12px;font-weight:800;color:var(--deep);background:#eaf5ed}
+.studio-switch a:hover{background:#d8ecdd}
+.studio-switch .current{display:block;padding:10px 12px 0;color:var(--green);font-size:10px;font-weight:800}
+.topbar .back-to-blog{display:none;text-decoration:none;color:var(--green);font-size:11px;font-weight:800;white-space:nowrap}
+@media(max-width:940px){.topbar .back-to-blog{display:inline-flex;align-items:center;min-height:40px}}
+@media(max-width:700px){.topbar .back-to-blog{order:2}}

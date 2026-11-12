@@ -1,0 +1,18 @@
+.studio-layout{display:grid;grid-template-columns:236px minmax(0,1fr);min-height:100vh}
+.studio-layout>.wrap{width:100%;min-width:0}
+.studio-sidebar{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;padding:28px 17px 24px;background:#1b2b24;border-right:1px solid #405849;color:#eef1e9}
+.studio-sidebar .sidebar-brand{display:flex;align-items:center;gap:11px;padding:0 10px 27px;border-bottom:1px solid #405849;font-size:13px;font-weight:700;line-height:1.45}
+.studio-sidebar .sidebar-mark{width:34px;height:34px;display:grid;place-items:center;border:1px solid #829b87;color:#e6c586;font:22px Georgia,serif;flex:none}
+.studio-sidebar .sidebar-brand small{display:block;font-size:9px;font-weight:400;letter-spacing:.12em;color:#aebdb2}
+.studio-sidebar .sidebar-caption{padding:24px 11px 10px;font-size:10px;letter-spacing:.14em;color:#d7bc87}
+.studio-sidebar nav{display:flex;flex:1;flex-direction:column;gap:7px}
+.studio-sidebar a{display:flex;align-items:center;gap:11px;padding:13px 12px;border:1px solid transparent;color:#c4d1c5;text-decoration:none;font-size:13px;border-radius:4px;line-height:1.4}
+.studio-sidebar a:hover,.studio-sidebar a:focus-visible{background:#2b4435;color:#fff}
+.studio-sidebar a[aria-current="page"]{background:#314b3b;border-color:#607960;color:#fff;font-weight:700}
+.studio-sidebar .nav-icon{width:24px;text-align:center;color:#e6c586;font-size:18px;flex:none}
+.studio-sidebar .sidebar-bottom{margin-top:auto;padding-top:16px;border-top:1px solid #405849}
+.studio-sidebar .sidebar-bottom a{background:#274232;border-color:#718b6c;color:#f3f4eb;font-weight:700}
+.studio-sidebar .sidebar-bottom a:hover{background:#385841}
+.studio-sidebar .sidebar-bottom small{display:block;margin:0 12px 8px;color:#aebdb2;font-size:10px}
+@media(max-width:950px){.studio-layout{display:block}.studio-sidebar{position:relative;height:auto;padding:12px 18px;display:flex;flex-direction:row;align-items:center;gap:12px}.studio-sidebar .sidebar-brand{border:0;padding:0;flex:1}.studio-sidebar .sidebar-caption{display:none}.studio-sidebar nav{display:flex;flex:none;flex-direction:row;align-items:center}.studio-sidebar .sidebar-bottom{margin:0;padding:0;border:0}.studio-sidebar .sidebar-bottom small{display:none}.studio-sidebar a{padding:9px 10px}.studio-sidebar a .nav-label{display:none}.studio-sidebar .sidebar-bottom a{white-space:nowrap}.studio-sidebar .sidebar-bottom a .nav-label{display:inline}.studio-layout>.wrap{max-width:100%}}
+@media(max-width:650px){.studio-sidebar{flex-wrap:wrap}.studio-sidebar .sidebar-brand{min-width:150px}.studio-sidebar nav{order:2;width:100%}.studio-sidebar .sidebar-bottom{margin-left:auto}.studio-layout .wrap header{flex-wrap:wrap}.studio-layout .head-right{align-items:flex-start}.studio-layout .wrap{overflow:hidden}}
